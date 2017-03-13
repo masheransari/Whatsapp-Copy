@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Whatsapp Copy</string>
+    <string name="calls">Calls</string>
+    <string name="chats">Chats</string>
+    <string name="contact">Contacts</string>
+    <string name="srch">Search</string>
+</resources>

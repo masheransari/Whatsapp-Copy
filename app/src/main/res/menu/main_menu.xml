@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/searchId"-->
+        <!--android:icon="@android:drawable/ic_menu_search"-->
+        <!--android:title="Search"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/messageId"
+        android:icon="@drawable/ic_comment_white_24dp"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/srch"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <group>
+        <item
+            android:id="@+id/newId"
+            android:title="New Group"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/broadCastId"
+            android:title="New Broadcast"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/webId"
+            android:title="Whatsapp Web"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/starId"
+            android:title="Starred Message"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/settingId"
+            android:title="Setting"
+            app:showAsAction="never" />
+    </group>
+</menu>

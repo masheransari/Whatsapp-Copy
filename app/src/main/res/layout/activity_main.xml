@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asheransari.whatsappcopy.MainActivity">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        app:tabSelectedTextColor="#ffffff"
+        style="@style/MyCustomTabLayout"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabMaxWidth="0dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/materialup_viewPager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</LinearLayout>
+
+    <!--<android.support.design.widget.CoordinatorLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<!--<android.support.design.widget.AppBarLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/materialup_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--android:background="?colorPrimary"-->
+        <!--android:layout_marginTop="-48dp"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay"-->
+        <!--style="@style/ToolBarWithNavigationBack"/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+        <!--android:id="@+id/materialUp_title_container">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:text="Whatsapp"/>-->
+    <!--</LinearLayout>-->
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:id="@+id/materialup_tabs"-->
+        <!--app:tabSelectedTextColor="?android:textColorPrimaryInverse"-->
+        <!--app:tabIndicatorColor="?android:textColorPrimaryInverse"-->
+        <!--app:tabIndicatorHeight="4dp"-->
+        <!--/>-->
+    <!--​</android.support.design.widget.AppBarLayout>-->
+
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+
