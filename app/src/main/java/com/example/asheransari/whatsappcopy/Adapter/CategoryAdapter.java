@@ -32,6 +32,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else {
             return new Contacts();
         }
+//        else{
+//            return new Contacts();
+//        }
     }
 
     @Override
