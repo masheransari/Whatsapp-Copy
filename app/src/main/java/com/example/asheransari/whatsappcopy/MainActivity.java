@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabs);
         ViewPager viewPager = (ViewPager)findViewById(R.id.materialup_viewPager);
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
