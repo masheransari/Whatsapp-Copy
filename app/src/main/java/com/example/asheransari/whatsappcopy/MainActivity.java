@@ -1,5 +1,6 @@
 package com.example.asheransari.whatsappcopy;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
@@ -56,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "New Group is Selected", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.broadCastId:
+//                Intent i = new Intent(MainActivity.this,bar_code.class);
+//                startActivity(i);
                 Toast.makeText(this, "New Broadcast is Selected", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.webId:
